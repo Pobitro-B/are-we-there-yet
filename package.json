@@ -1,13 +1,15 @@
 {
   "name": "are-we-there-yet",
-  "displayName": "are-we-there-yet",
-  "icon":"images/icon.png",
-  "description": "get notified when the task is complete",
+  "displayName": "Are We There Yet",
+  "icon": "images/icon.png",
+  "description": "Get Telegram notifications when long-running terminal commands finish in VS Code.",
   "version": "0.0.1",
+  "publisher": "pobitroB",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url":"https://github.com/Pobitro-B/are-we-there-yet.git"
-    },
+    "url": "https://github.com/Pobitro-B/are-we-there-yet.git"
+  },
   "homepage": "https://github.com/Pobitro-B/are-we-there-yet",
   "bugs": {
     "url": "https://github.com/Pobitro-B/are-we-there-yet/issues"
@@ -18,7 +20,10 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": ["onStartupFinished","onTerminal"],
+  "activationEvents": [
+    "onStartupFinished",
+    "onTerminal"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
@@ -78,7 +83,15 @@
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.56.1"
   },
-  "dependencies": {
-    "dotenv": "^17.4.2"
-  }
+  "keywords": [
+  "telegram",
+  "notification",
+  "terminal",
+  "task",
+  "productivity",
+  "mobile",
+  "build",
+  "python",
+  "node"
+]
 }
