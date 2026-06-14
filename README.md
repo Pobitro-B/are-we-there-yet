@@ -1,5 +1,10 @@
 # Are We There Yet 🐢
 
+
+<p align="center">
+  <img src="images/logo.png" width="500">
+</p>
+
 Get Telegram notifications when long-running terminal commands finish in VS Code.
 
 No more tab-checking every few minutes to see whether your training script, build, test suite, or deployment has completed. Start a command, walk away, and get notified on your phone when it's done.
@@ -39,6 +44,10 @@ Duration:
 Exit Code:
 0
 ```
+
+<p align="center">
+  <img src="images/notification-example.jpeg" width="500">
+</p>
 
 ### ⏱ Duration Filtering
 
