@@ -4,6 +4,14 @@
   "icon":"images/icon.png",
   "description": "get notified when the task is complete",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/Pobitro-B/are-we-there-yet.git"
+    },
+  "homepage": "https://github.com/Pobitro-B/are-we-there-yet",
+  "bugs": {
+    "url": "https://github.com/Pobitro-B/are-we-there-yet/issues"
+  },
   "engines": {
     "vscode": "^1.120.0"
   },
